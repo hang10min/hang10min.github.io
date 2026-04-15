@@ -586,13 +586,13 @@ pre .javascript .function {
 }
 @media only screen and (max-width: 750px) {
   #avator {
-    display: none;
+    display: block !important;
+    margin: 0 auto 20px;
+    text-align: center;
   }
   .posts-wrapper {
     width: 100%;
-  }
-  ._toc {
-    display: none;
+    margin-top: 20px;
   }
   ._toc {
     display: none;
