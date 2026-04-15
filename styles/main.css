@@ -587,12 +587,16 @@ pre .javascript .function {
 @media only screen and (max-width: 750px) {
   #avator {
     display: block !important;
-    margin: 0 auto 20px;
-    text-align: center;
+    width: 100% !important;
+    margin: 0 auto 30px !important;
+    text-align: center !important;
+    float: none !important; /* 取消电脑端的右浮动，手机端独占一行 */
+    position: static !important;
   }
   .posts-wrapper {
-    width: 100%;
-    margin-top: 20px;
+    width: 100% !important;
+    float: none !important; /* 取消左浮动，避免和头像并排 */
+    margin-top: 0 !important;
   }
   ._toc {
     display: none;
